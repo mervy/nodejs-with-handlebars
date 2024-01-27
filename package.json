@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-with-handlebars",
+  "version": "1.0.0",
+  "description": "Usando o node.js com o sistema de templates handlebars",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./backend/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mervy/nodejs-with-handlebars.git"
+  },
+  "author": "Rogério Soares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mervy/nodejs-with-handlebars/issues"
+  },
+  "homepage": "https://github.com/mervy/nodejs-with-handlebars#readme",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
